@@ -1,0 +1,223 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* background-image: linear-gradient(30deg,#1c282e,#6a8595); */
+}
+body{
+  overflow-x: hidden;
+  position: relative;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.nav-ul li :hover{
+  color: white;
+  text-decoration: none;
+  background-color: yellow;
+}
+
+.nav-ul{
+  padding: 5px;
+    margin: 0;
+    background: #414952;
+    padding: 3px;
+    font-size: large;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+}
+
+.register{
+  margin-left: 30%;
+}
+.appButton{
+  margin: 25px;
+    padding: 10px;
+    width: 150px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.inputBox{
+  display: block;
+    margin: 25px;
+    padding: 5px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.nav-right{
+  text-align: right;
+}
+.login{
+  margin-left: 10%;
+}
+.logo{
+  width: 70px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.event-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.student-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.student-list ul li{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  width: 130px;
+}
+.student-list ul{
+  margin: 0;
+}
+.eventbutton{
+  float: left;
+  margin: 25px;
+    padding: 10px;
+    width: 100px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.event-list ul li{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  width: 150px;
+}
+.event-list ul{
+  margin: 0;
+}
+.invalid-input{
+  color: red;
+    margin-top: -10px;
+    display: block;
+    margin-left: 20px;
+}
+.searchbox{
+  width: 400px;
+    margin: 20px;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.form_section{
+  background-image: linear-gradient(30deg,#6ea0b9,#6a8595); 
+  border-radius: 10px;
+  margin: 10px 35px;
+  padding: 15px;
+  color: #2b4c5d;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.mb-3{
+  margin: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer p{
+  margin-bottom: 0;
+}
+
+.form_section{
+   background-image: linear-gradient(30deg,#6ea0b9,#6a8595); 
+   border-radius: 10px;
+   margin: 10px 25px;
+   padding: 15px;
+   color: #2b4c5d;
+   font-size: large;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   margin-left: 30%;
+}
+
+.mb-3{
+  margin: 10px;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+/* responsive css code 
+X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+

@@ -1,0 +1,30 @@
+const mongoose=require('mongoose');
+const userSchema = new mongoose.Schema({
+    email:String,
+    name:String,
+    fname:String,
+    mname:String,
+    number:Number,
+    gender:String,
+    institute:String,
+    course:String,
+    class1:String,
+    sem:Number,
+    bdate:String,
+    address:String,
+    landmark:String,
+    city:String,
+    taluka:String,
+    district:String,
+    pincode:Number,
+    mno:Number,
+    wno:Number,
+    aadhar:Number,
+    bloodgroup:String,
+    fatherno:Number,
+    motherno:Number,
+    stay:String,
+    upfrom:String,
+});
+
+module.exports = mongoose.model("student",userSchema);
